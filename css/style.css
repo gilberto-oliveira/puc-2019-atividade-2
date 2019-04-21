@@ -1,0 +1,27 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald|PT+Sans+Narrow');
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h2, h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#menu h1 {
+    display: none;
+}
+
+iframe {
+    border: 0;
+}
+
+#info-list li:first-child {
+    list-style: none;
+}
